@@ -1,8 +1,8 @@
-# Webpack Starter
+# Webpack Tailwind Starter
 
-<img src="./webpack-icon.png" alt="Webpack" width="200" />
+<img src="webpack-tailwind.png" alt="Webpack TailwindCSS" />
 
-A starter frontend boilerplate using Webpack 5, SASS, PostCSS, Babel, ESLint, Stylelint, Prettier and more.
+A starter frontend boilerplate using Webpack 5, TailwindCSS, SASS, PostCSS, Babel, ESLint, Stylelint, Prettier and more.
 
 ## Features
 
@@ -20,11 +20,12 @@ A starter frontend boilerplate using Webpack 5, SASS, PostCSS, Babel, ESLint, St
 
 - [Babel 7](https://babeljs.io/) - JavaScript compiler with [`babel-preset-env`](https://babeljs.io/docs/babel-preset-env).
 
-### CSS / SASS / PostCSS
+### TailwindCSS / SASS / PostCSS
 
+- [@tailwindcss/typography](https://github.com/tailwindlabs/tailwindcss-typography) - A plugin that adds a set of `prose` classes that can be used to quickly add sensible typographic styles to content blocks.
+- [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms) - A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
 - [SASS](https://sass-lang.com/) support based on [dart-sass](https://www.npmjs.com/package/sass).
 - [PostCSS](https://postcss.org/) setup with [`post-preset-env`](https://www.npmjs.com/package/postcss-preset-env), including _autoprefixing_ of browserspecific CSS rules.
-- Remove unused CSS with [PurgeCSS](https://purgecss.com/).
 
 ### Code style & linters
 
